@@ -6,14 +6,14 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Printing user name using github action
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build:
+  printing_Name:
 
     runs-on: ubuntu-latest
 
